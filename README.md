@@ -7,7 +7,7 @@
 - Print the styled log message as string to in your own logger - `.print`
 - Convenient methods to log message levels: `.success` , `.info`, `.warning`, `.error`
 - Smaller package size: less than 6kB
-- If you wish to customize further, you will be better off using [chalk](https://www.npmjs.com/package/chalk) and [log-symbols](https://www.npmjs.com/package/log-symbols) 
+- If you wish to customize further, you will be better off using [chalk](https://www.npmjs.com/package/chalk) and [log-symbols](https://www.npmjs.com/package/log-symbols)
 
 # Install
 
@@ -20,7 +20,7 @@ npm install loglert
 ```javascript
 import { loglert } from 'loglert';
 
-loglerts.success(`Update successful!`);
+loglert.success(`Update successful!`);
 ```
 
 # API
